@@ -1,0 +1,93 @@
+body{
+  font-family: arial,sans-serif;
+}
+
+/* regole backround-color */
+.backg-black{
+  background-color: #2C3E50;
+}
+.backg-green{
+  background-color: #1ABC9B;
+}
+
+/* regole altezza e posizione */
+.height-700{
+  height: 700px;
+}
+
+.height-250{
+  height: 250px;
+}
+
+.p-relative{
+  position: relative;
+}
+
+.p-absolute-center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* header */
+.header-top{
+  position: fixed;
+  margin: 0 auto;
+  width: 100%;
+  height: 90px;
+  z-index: 2;
+}
+
+.header-top .row{
+  padding: 25px;
+}
+
+a{
+  font-size: 28px;
+  font-weight: 700;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  text-decoration: none;
+  color: white;
+}
+
+ul li a{
+  font-size: 20px;
+}
+
+.color-text:hover{
+  color:#1ABC9B;
+}
+
+/* SECTION PORTFOLIO */
+.portfolio{
+  background-color: pink;
+  margin-top: 90px;
+  margin-bottom: 60px;
+}
+
+.box-portfolio{
+  background-color: #B94B63;
+  margin-bottom: 30px;
+}
+
+/* SECTION ABOUT */
+.about{
+  color: white;
+}
+
+/* SECTION FORM */
+
+/* FOOTER */
+footer{
+  color: white;
+}
+
+.bar-footer{
+  background-color: #1A252F;
+  padding: 25px;
+}
